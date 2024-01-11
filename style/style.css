@@ -1,0 +1,83 @@
+ *{ /*для всех селекторов*/
+    margin: 0;
+    padding: 0;
+   }
+
+   .page{
+    padding: 60px 0 30px 30px ;
+
+   }
+
+#main-info{
+    background-color: #f5f9ee;
+}
+
+#main-info h1{
+    margin-bottom: 30px;
+    color: #247291;
+}
+
+#main-info .img {
+border: 4px solid #eef2e2;
+padding: 20px;
+margin-top: 50px;
+width: 730px;
+}
+
+#main-info .img img{
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+    object-fit: contain;
+}
+
+#health{ /*id один раз на странице*/
+    background-color:#c7b198; 
+}
+
+#health img{
+    width: 200px;
+    height: 300px;
+    margin: 0 40px;
+    object-fit: contain;
+    padding-top: 40px;
+}
+
+#health p{
+    padding: 50px 0 50px 0;
+    font-size: larger;
+}
+
+#art{
+    background-color: #f0ece2;
+}
+
+#art h2{
+    padding-bottom: 30px;
+}
+
+#art ul {
+    padding-left: 40px;
+    list-style-image: url("../media/bike5.jpg");
+}
+#art li {
+    margin:10px 0;
+}
+
+
+
+
+   
+  
+   
+   
+   
+   
+   /* width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 50px 100px; внешнее
+    padding: 60px 50px; внутреннее
+    padding-bottom: 30px;pading-top/bottom etc  можно  записать на все 30 и отдельно какую-то сторону 
+    padding: 30px 60px 90px 120px;*/
+
